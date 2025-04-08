@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hilangkan scrollbar di Webkit (Chrome, Safari) */
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hilangkan scrollbar di Firefox */
+.scrollbar-hide {
+  scrollbar-width: none;
+}
